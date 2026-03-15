@@ -74,14 +74,17 @@ flutter build apk --debug
 
 ## Screenshots
 
+Loading (`loading.png`)  
+![Loading](assets/screenshots/loading_page.png)
+
 Home (`home.png`)  
-![Home](assets/screenshots/home.png)
+![Home](assets/screenshots/home_page.png)
 
 Stories (`stories.png`)  
 ![Stories](assets/screenshots/stories.png)
 
-Story Viewer (`story_viewer.png`)  
-![Story Viewer](assets/screenshots/story_viewer.png)
+Story Viewer (Story page.png`)  
+![Story Viewer](assets/screenshots/Story_page.png)
 
 Notifications (`notifications.png`)  
 ![Notifications](assets/screenshots/notifications.png)
@@ -93,7 +96,7 @@ Chat (`chat.png`)
 ![Chat](assets/screenshots/chat.png)
 
 Saved (`saved.png`)  
-![Saved](assets/screenshots/saved.png)
+![Saved](assets/screenshots/saved_items.png)
 
 Profile (`profile.png`)  
 ![Profile](assets/screenshots/profile.png)
