@@ -74,15 +74,12 @@ flutter build apk --debug
 
 ## Screenshots
 
-| Loading | Home | Stories |
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
 | --- | --- | --- |
-| ![Loading](assets/screenshots/loading_page.png) | ![Home](assets/screenshots/home_page.png) | ![Stories](assets/screenshots/stories.png) |
-| Story Viewer | Notifications | Messages |
-| ![Story Viewer](assets/screenshots/Story_page.png) | ![Notifications](assets/screenshots/notifications.png) | ![Messages](assets/screenshots/messages.png) |
-| Chat | Saved | Profile |
-| ![Chat](assets/screenshots/chat.png) | ![Saved](assets/screenshots/saved_items.png) | ![Profile](assets/screenshots/profile.png) |
-| Comments | Like Button |  |
-| ![Comments](assets/screenshots/comments.png) | ![Like Button](assets/screenshots/Like_button.png) |  |
+| **Loading**<br>![Loading](assets/screenshots/loading_page.png) | **Home**<br>![Home](assets/screenshots/home_page.png) | **Stories**<br>![Stories](assets/screenshots/stories.png) |
+| **Story Viewer**<br>![Story Viewer](assets/screenshots/Story_page.png) | **Notifications**<br>![Notifications](assets/screenshots/notifications.png) | **Messages**<br>![Messages](assets/screenshots/messages.png) |
+| **Chat**<br>![Chat](assets/screenshots/chat.png) | **Saved**<br>![Saved](assets/screenshots/saved_items.png) | **Profile**<br>![Profile](assets/screenshots/profile.png) |
+| **Comments**<br>![Comments](assets/screenshots/comments.png) | **Like Button**<br>![Like Button](assets/screenshots/Like_button.png) |  |
 
 ## Notes
 
