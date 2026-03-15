@@ -69,31 +69,31 @@ flutter run
 
 ## Screenshots
 
-Home  
+Home (`home.png`)  
 ![Home](assets/screenshots/home.png)
 
-Stories  
+Stories (`stories.png`)  
 ![Stories](assets/screenshots/stories.png)
 
-Notifications  
+Notifications (`notifications.png`)  
 ![Notifications](assets/screenshots/notifications.png)
 
-Messages  
+Messages (`messages.png`)  
 ![Messages](assets/screenshots/messages.png)
 
-Saved  
+Saved (`saved.png`)  
 ![Saved](assets/screenshots/saved.png)
 
-Profile  
+Profile (`profile.png`)  
 ![Profile](assets/screenshots/profile.png)
 
-Comments  
+Comments (`comments.png`)  
 ![Comments](assets/screenshots/comments.png)
 
-Story Viewer  
+Story Viewer (`story_viewer.png`)  
 ![Story Viewer](assets/screenshots/story_viewer.png)
 
-Chat  
+Chat (`chat.png`)  
 ![Chat](assets/screenshots/chat.png)
 
 ## Build APK

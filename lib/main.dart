@@ -79,25 +79,30 @@ class AppTheme {
     );
     return base.copyWith(
       scaffoldBackgroundColor: Colors.transparent,
-      textTheme: GoogleFonts.manropeTextTheme(base.textTheme).copyWith(
-        titleLarge: GoogleFonts.playfairDisplay(
-          fontSize: 22,
-          fontWeight: FontWeight.w700,
-        ),
-        titleMedium: GoogleFonts.manrope(
-          fontSize: 16,
-          fontWeight: FontWeight.w600,
-        ),
-        bodyMedium: GoogleFonts.manrope(
-          fontSize: 14,
-          fontWeight: FontWeight.w500,
-        ),
-        bodySmall: GoogleFonts.manrope(
-          fontSize: 12,
-          fontWeight: FontWeight.w500,
-          color: AppColors.lightMuted,
-        ),
-      ),
+      textTheme: GoogleFonts.manropeTextTheme(base.textTheme)
+          .apply(bodyColor: const Color(0xFF1A1A1F), displayColor: const Color(0xFF1A1A1F))
+          .copyWith(
+            titleLarge: GoogleFonts.playfairDisplay(
+              fontSize: 22,
+              fontWeight: FontWeight.w700,
+              color: const Color(0xFF1A1A1F),
+            ),
+            titleMedium: GoogleFonts.manrope(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+              color: const Color(0xFF1A1A1F),
+            ),
+            bodyMedium: GoogleFonts.manrope(
+              fontSize: 14,
+              fontWeight: FontWeight.w500,
+              color: const Color(0xFF2B2B32),
+            ),
+            bodySmall: GoogleFonts.manrope(
+              fontSize: 12,
+              fontWeight: FontWeight.w500,
+              color: AppColors.lightMuted,
+            ),
+          ),
     );
   }
 
