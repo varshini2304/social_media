@@ -1,16 +1,114 @@
-# zrex
+# Varsh — Instagram-Style Social UI (Flutter)
 
-A new Flutter project.
+A premium, animated Instagram-style mobile UI built in Flutter with glassmorphism, story rings, carousel posts, and rich micro-interactions. This project focuses on polish, interaction design, and clean architecture alignment with typical company evaluation criteria.
 
-## Getting Started
+## Highlights
 
-This project is a starting point for a Flutter application.
+- **Highly animated feed**: story ring rotation, elastic scrolling, fade/scale transitions
+- **Post interactions**: swipeable carousel, double‑tap like heart burst, save glow
+- **Navigation**: Home, Stories, Notifications, Messages, Saved, Profile
+- **Loading states**: shimmer skeletons and a stylized loading splash
+- **Modern UI**: glassmorphism overlays, soft gradients, rounded cards, soft shadows
 
-A few resources to get you started if this is your first Flutter project:
+## Feature Coverage (Company Expectations)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Separation of concerns** (models, repository, provider, widgets, screens, utils)
+- **State management** with `provider`
+- **Reusable UI components** (post card, shimmer, story widget, carousel)
+- **Navigation flows** for stories, messages, profile, comments, saved, share sheet
+- **Production‑ready UI patterns**: shimmer loading, bottom sheet share, detail screens
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture
+
+```
+lib/
+  models/
+  repositories/
+  providers/
+  services/
+  widgets/
+  screens/
+  utils/
+  main.dart
+```
+
+## Core Screens
+
+- Home Feed
+- Stories
+- Notifications
+- Messages
+- Saved (All Posts / Collections)
+- Profile
+- Post Detail
+- Comments
+- Story Viewer
+- Chat Detail
+
+## Animations & Interactions
+
+- Animated story ring gradient
+- Double‑tap like with heart burst
+- Swipeable image carousel
+- Hero transition into image detail
+- Glowing save button
+- Shimmer loading placeholders
+
+## Tech Stack
+
+- **Flutter** (Material 3)
+- **Provider** for state management
+- **Google Fonts** for typography
+
+## Run Locally
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Screenshots
+
+Home  
+![Home](assets/screenshots/home.png)
+
+Stories  
+![Stories](assets/screenshots/stories.png)
+
+Notifications  
+![Notifications](assets/screenshots/notifications.png)
+
+Messages  
+![Messages](assets/screenshots/messages.png)
+
+Saved  
+![Saved](assets/screenshots/saved.png)
+
+Profile  
+![Profile](assets/screenshots/profile.png)
+
+Comments  
+![Comments](assets/screenshots/comments.png)
+
+Story Viewer  
+![Story Viewer](assets/screenshots/story_viewer.png)
+
+Chat  
+![Chat](assets/screenshots/chat.png)
+
+## Build APK
+
+```bash
+flutter build apk --debug
+```
+
+## Notes
+
+- Default theme mode is **Dark**.
+- The loading splash is a short animated entry view (approx. 1.4s by default).
+
+## Optional Enhancements
+
+- Persist theme preference with `SharedPreferences`
+- Real API integration and pagination
+- Comment/like count persistence

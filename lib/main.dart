@@ -25,7 +25,7 @@ class ZrexApp extends StatefulWidget {
 }
 
 class _ZrexAppState extends State<ZrexApp> {
-  ThemeMode _mode = ThemeMode.light;
+  ThemeMode _mode = ThemeMode.dark;
   bool _ready = false;
 
   void _toggleTheme(bool isDark) {
